@@ -1,0 +1,251 @@
+/*
+Theme Name: Bijou
+Theme URI: 
+Description: The 2010 default theme for Bijou's WordPress Site.
+Author: Elizabeth Timmins and Dustin Quam
+Version: 1.0 
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu (optional)
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+body {background-image:url(images/wood_repeat.jpg);color:white;font-family: 'Century Gothic', Arial, Helvetica, sans-serif; }
+p {font-family:'Century Gothic', Arial, Helvetica, sans-serif; font-size:14px; font-weight:lighter;}
+div#wrapper {width:100%; margin:auto;   }
+.menu { background-color:transparent; margin:auto; }
+div#header h1 {background:url(images/now_showing.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
+div#content {width:947px; margin:auto; /*margin-top:-29px;*/ display:block; height:auto;  background: rgba(43, 26, 17, 0.6) none repeat scroll 0 0; box-shadow: 0px 0px 60px rgba(0,0,0,.4); border-radius: 15px; border-bottom: 3px solid rgba(23,6,7,1);border-left: 1px solid rgba(23,6,7,1); border-top: 1px solid rgba(63, 46, 37, 1); padding: 20px; }
+#content.home{
+	margin-top: -29px;
+
+}
+#content ul {
+	padding: 0;	
+}
+
+div.clear {clear:both;}
+a {outline:none; color:#91b99f; text-decoration:none; }
+li {list-style-type:none;}
+div#colophon {margin:0 20px 0 30px; padding-bottom:5px;}
+h2 {font-size:18px; color:#38755c;text-transform:uppercase;}
+ul.bijou {font-size:13px; list-style-type:none; margin-left:-40px;}
+span.highlight {color:#91b99f; text-transform:uppercase; font-size:13px;}
+
+.entry-content strong {
+color:#91b99f; text-transform:uppercase; font-size:13px;
+
+}
+
+h2.accessibility {display:none;}
+/*NAVIGATIONS-top and bottom*/
+
+#topnav {
+	width: 949px; margin: auto;
+}
+.menu ul {margin:auto; width:949px; height:150px; }
+.menu ul li {display:inline; margin:auto;}
+
+.menu ul li a {color:white; text-decoration:none; font-size:25px;margin:50px 60px 70px 0px;float:left;text-transform:uppercase;list-style-type:none; }
+.menu ul li .current_page_item a{ color: green }
+
+li.current_page_item a, li.page_item a { }
+.menu ul a:hover {color:#91b99f;}
+.bijou-logo {margin:0 50px 0 0px;  background:url(images/logo.png) no-repeat; display:block; height:119px; width: 198px; float:left; text-indent:-9999px; }
+.uilogo {margin:0 0px 0 0px;  background:url(images/uilogo2.png) no-repeat; display:block; height:32px; width: 297px;  text-indent:-9999px; }
+
+/*bottom nav */
+/*div#footer {margin-left:20px;}*/
+div#footer p.disability {font-size:11px; margin:0 0 35px 0;}
+div#footer ul#navfoot { height:50px;width:949px; margin:10px auto 0px auto; }
+div#footer ul#navfoot li {float:left; list-style-type:none;  margin-bottom:0;  }
+div#footer ul#navfoot li a {color:#91B99F; font-weight:lighter; font-size:18px; margin:0px 90px 0px -40px; text-decoration:none;text-transform:uppercase; }
+div#footer ul#navfoot li a:hover {color:#38755c;}
+div#footer p.bottomnav {font-size:15px; margin-top:0;}
+
+/*End of NAVIGATION*/
+/*ENTRY STYLE*/
+h1.entry-title{color:#91b99f; text-transform:uppercase; font-size:30px; margin-bottom:-5px; text-decoration: none;}
+div.post {margin:0 10px 0 0px;}
+div.entry-content a img {margin:10px 0 0 0; border:none;}
+
+/*end ENTRY STYLE*/
+/*SCHEDULE PAGE STYLES*/
+h2.title {color:#91b99f; text-transform:uppercase; font-size:20px; margin-bottom:-15px; text-decoration: none;}
+p.title {margin:-10px 0 20px 0;}
+/*end of SCHEDULE PAGE STYLES*/
+
+
+
+/*LEFT COLUMN*/
+div#leftcolumn {width:575px; min-height:200px;float:left; margin:0; padding: 20px; /* background-color: rgba(43, 26, 17, 0.6); */}
+div#filmfeature ul {width:620px;  min-height:100px; margin-top:-10px; list-style:none;}
+div#filmfeature ul li {width:585px; float:left; display: block; margin:0 20px 0 0; }
+div#filmfeature ul li img {float: left; display: block; margin:0 20px 20px 0;}
+div#filmfeature ul li h2 a{color:#91b99f; text-transform:uppercase; font-size:30px; margin-bottom:-15px; text-decoration: none;}
+div#filmfeature ul li h3{font-family:'Century Gothic', arial, sans-serif; color:#38755c; text-transform:uppercase; font-size:22px;margin:0;}
+div#filmfeature ul li h4 {margin:0;} 
+div#filmfeature ul li h5 {margin:0 0 15px 0; font-family:'Century Gothic', Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal;}
+div#filmfeature ul li p {margin:0; }
+ span.director {text-transform:uppercase; color:#91B99F; font-size:15px;}
+ 
+
+.dbem_events_list{
+	padding: 0;
+
+}
+
+.eventful ul {
+	padding: 0;
+}
+
+table.dbem-calendar-table td.eventless-today {
+	background: green;
+
+}
+.schedule_container {
+background-color: #5e7767;
+float: right;
+padding: 5px;
+
+}
+
+
+.content_container {
+	padding: 5px;
+
+}
+.ec3_schedule {
+	float: none !important;
+	border: none !important;
+}
+
+.ec3_schedule td {
+	color: white !important;
+	padding: 10px 0;
+
+}
+
+.ec3_list {
+	color: white !important;
+	margin: 0 !important;
+
+}
+
+.ec3_events {
+	padding: 0;
+	margin: 0;
+
+}
+
+/*END OF LEFT COLUMN*/
+
+/*RIGHT COLUMN*/
+div#rightcolumn {width:316px; float:left; margin:0px; margin-bottom:30px; margin-left: 15px; }
+
+/*begin headshots*/
+div#directors ul {margin-left:-10px; padding:0;}
+div#directors ul li {list-style-type:none;float:left; margin:0 30px 15px 0px; width:120px; height:270px; }
+div#directors ul li img { margin:20px 12px 5px 12px;}
+div#directors ul li p {margin:0 0 0px 10px; font-size:13px; }
+
+
+/*end headshots*/
+
+/* Widget/Sidebar Things */
+#em_widget-3 h3{background:url(images/upcoming.png) no-repeat; height:110px; width:316px; text-indent:-9999px; margin:auto; }
+
+#rightcolumn ul.xoxo{ padding: 0}
+
+
+
+div#rightcolumn h3.films {color:#38755c; text-transform:uppercase; width:180px;   text-align:center;margin: auto;  font-family:'Century Gothic', Arial,Helvetica,sans-serif;}
+a#tweet {background:url(images/twitter.png) no-repeat; width:81px; height:71px; text-indent:-9999px; display:block; float:left; margin: 0px 14px 0px 0px;}
+a#fb {background:url(images/facebook.png) no-repeat; width:81px; height:71px; text-indent:-9999px; display:block; float:left; margin:0px 4px 10px 0;}
+a#email {background:url(images/email.png) no-repeat; width:81px; height:71px; text-indent:-9999px; display:block; float:left; margin: 0px 0 10px 10px; }
+ul#connect {width:280px;  min-height:81px; }
+ul#connect li {list-style-type:none; /*margin-left:-20px;*/ }
+div#rightcolumn h3.page_item {width:317px;}
+h3.connect {background:url(images/connect.png) no-repeat; height:101px; width:317px; text-indent:-9999px; margin:auto; }
+ul.films, ul.page_item, ul.current_page_item {width:220px; min-height:100px; margin:auto;  }
+
+ul.films li {list-style-type:none; margin-left:-30px;}
+ul.films li p{margin:0; text-align:left;}
+ul.films li h4 {color:#91b99f; font-family:Arial,Helvetica,sans-serif; text-transform:uppercase; font-size:14px; font-weight:lighter; margin-bottom:0; text-align:left;}
+ul.films li h5 {font-size:14px; font-weight:lighter; margin:0;}
+ul.films li h6 {font-size:14px; font-weight:lighter; margin:0 0 15px 0;}
+address {font-family:'Century Gothic', Arial, Helvetica, sans-serif; font-weight:lighter; font-size:14px; font-style:normal; margin:0px 0 0 20px;}
+ul.page_item, ul.current_page_item {margin:10px 0 0 0px;}
+ul.page_item li, ul.current_page_item li {list-style-type:none;text-align:center;margin:auto; }
+ul.page_item li a, ul.current_page_item li a{color:#91b99f; text-transform:uppercase; text-decoration:none; }
+ul.page_item li a:hover, ul.current_page_item li a:hover {color:#38755c;}
+h4.bijou {font-size:18px; color:#91b99f; text-transform:uppercase; font-weight:lighter; margin:0 0 0 20px;}
+span.bijou {font-size:18px; color:#91b99f;}
+p.bijou {font-size:18px; color:#38755c; margin-left:20px; }
+/*
+div#connect 
+
+
+
+
+*/
+/*END OF RIGHT COLUMN*/
+
+/*IE styles  */
+html>body .menu ul {*width:698px; *height:165px; }
+html>body .menu ul li a{ *margin:50px 60px 70px 0px;  }
+html>body ul#connect {*width:300px; *margin-left:15px; }
+html>body ul#connect li {*float:left; *margin:0 2px 0 2px;}
+html>body ul.bijou {*margin-left:5px;}
+html>body div#rightcolumn ul.xoxo{*margin:auto;}
+html>body div#rightcolumn ul.xoxo ul {*margin-left:15px;}
+span.gc-cs-link {
+ color: #91B99F;
+
+}
+
+
+/* full calendar styles */
+
+table.fullcalendar tr td ul li {
+	width: auto;
+
+}
+
+#full-schedule {
+	padding: 0;
+	padding-left: 10px;
+}
+
+li.ec3_list.ec3_list_day {
+	margin: 15px 0;
+
+}
+
+.ec3_list_day ul {
+
+	margin-left: 25px;
+}
+
+.ec3_list_day li {
+	list-style-type: square;
+	margin: 5px 0;
+
+}
+
+/* Comments Form */
+
+#commentform label {
+	float: none;
+
+}
+#commentform input {
+	display: block;
+
+}
+#commentform textarea {
+	display: block;
+	width: 100%
+}
