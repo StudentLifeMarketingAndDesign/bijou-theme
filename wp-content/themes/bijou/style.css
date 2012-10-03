@@ -19,6 +19,8 @@ div#wrapper {width:100%; margin:auto;   }
 div#header h1 {background:url(images/now_showing.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#headercomingsoon h1 {background:url(images/coming_soon.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#headerabout h1 {background:url(images/about.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
+div#headerlocation h1 {background:url(images/location.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
+div#headerarchive h1 {background:url(images/archive.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#content {width:947px; margin:auto; /*margin-top:-29px;*/ display:block; height:auto;  background: rgba(43, 26, 17, 0.6) none repeat scroll 0 0; box-shadow: 0px 0px 60px rgba(0,0,0,.4); border-radius: 15px; border-bottom: 3px solid rgba(23,6,7,1);border-left: 1px solid rgba(23,6,7,1); border-top: 1px solid rgba(63, 46, 37, 1); padding: 20px; }
 #content.home{
 	margin-top: -29px;
