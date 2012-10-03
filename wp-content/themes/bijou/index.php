@@ -16,8 +16,6 @@
 get_header();
 
  ?>
-
-<div id="header"><h1>Bijou Cinema Now Showing</h1></div>
 <div id="content" class="home">   
 
 <div id="leftcolumn">

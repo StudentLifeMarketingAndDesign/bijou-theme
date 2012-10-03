@@ -64,4 +64,16 @@
 
 	</div>
     	
-	
+<?
+	if ( is_page('about') ) {
+		echo '<div id="headerabout"><h1>Bijou Cinema About</h1></div>';
+	}
+	if ( is_category('coming-soon') ) {
+		
+		echo '<div id="headercomingsoon"><h1>Bijou Cinema Coming Soon</h1></div>';
+	}
+	if ( is_home() ) {
+		
+		echo '<div id="header"><h1>Bijou Cinema Now Showing</h1></div>';
+	}
+?>	
