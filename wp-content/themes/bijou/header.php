@@ -65,6 +65,7 @@
 	</div>
     	
 <?
+/*
 	if ( is_page('about') ) {
 		echo '<div id="headerabout"><h1>Bijou Cinema About</h1></div>';
 	}
@@ -74,6 +75,7 @@
 	if ( is_page('archive') ) {
 		echo '<div id="headerarchive"><h1>Bijou Cinema Archive</h1></div>';
 	}
+*/
 	if ( is_category('coming-soon') ) {
 		
 		echo '<div id="headercomingsoon"><h1>Bijou Cinema Coming Soon</h1></div>';

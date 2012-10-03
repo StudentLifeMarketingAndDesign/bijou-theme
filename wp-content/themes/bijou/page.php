@@ -12,13 +12,14 @@ get_header(); ?>
 			<div id="content" role="main">
 			<div class="clear"></div>
 			<div id="leftcolumn">
-
+<?php if (is_page('location')){echo '<div id="headerlocation_sm"><h1>Bijou Cinema Location</h1></div>';} ?>
+<?php if (is_page('archive')){echo '<div id="headerarchive_sm"><h1>Bijou Cinema Archive</h1></div>';} ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 			
 
 				<div class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<h1 class="entry-title"><?php the_title(); ?></h1>
+					<!--<h1 class="entry-title"><?php the_title(); ?></h1>-->
 
 					<div class="entry-meta">
 						<?php bijou_posted_on(); ?>
