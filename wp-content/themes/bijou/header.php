@@ -71,9 +71,6 @@
 	if ( is_page('location') ) {
 		echo '<div id="headerlocation"><h1>Bijou Cinema Location</h1></div>';
 	}
-	if ( is_page('location-2') ) {
-		echo '<div id="headerlocation"><h1>Bijou Cinema Location</h1></div>';
-	}
 	if ( is_page('archive') ) {
 		echo '<div id="headerarchive"><h1>Bijou Cinema Archive</h1></div>';
 	}
