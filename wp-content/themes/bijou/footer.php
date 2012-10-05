@@ -30,7 +30,7 @@
             <li><a href="/">Contact Us  </a></li>
                 </ul>  -->
                 
-                <p class="bottomnav">Bijou Cinema, Iowa Memorial Union  |  Free admission for UI students, $7 for non-students</p>
+                <p class="bottomnav">Bijou Cinema, Iowa Memorial Union  |  $3 admission for UI students, $7 for non-students</p>
                <p class="disability">Individuals with disabilities are encouraged to attend all University of Iowa - sponsored events. If you are a person with a disability who requires an accommodation in order to participate in this program, please contact the Center For Student Involvement and Leadership in advance at 319-335-3059</p></div><div class="clear"></div>
 			
 			<div id="site-generator">

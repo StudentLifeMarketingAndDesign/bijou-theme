@@ -58,7 +58,7 @@
     <a class="uilogo" href="http://www.uiowa.edu">The University of Iowa</a>
          <a class="bijou-logo" href="/">Bijou Cinema</a>
 	<h2 class="accessibility">Navigation</h2>
-    <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+    <?php wp_nav_menu( array( 'container_class' => 'menu', 'theme_location' => 'primary' ) ); ?>
               
        <!-- End nav -->
 
