@@ -1,0 +1,15 @@
+div#header h1 {height: 90px;}
+div#headercomingsoon h1 {height: 90px;}
+div#headerabout h1 {height: 90px;}
+div#headerlocation h1 {height: 90px;}
+div#headerarchive h1 {height: 90px;}
+div#headerabout_sm h1 {background-size: 60%;}
+div#headerlocation_sm h1 {background-size: 60%;}
+div#headerarchive_sm h1 {background-size: 60%;}
+
+
+.bijou-logo {margin:0 15px 0 10px; height:119px; width: 25%; background-size: 100%;}
+
+
+
+.menu ul li a {font-size:10px; margin:20px 7px 0px 0px;}

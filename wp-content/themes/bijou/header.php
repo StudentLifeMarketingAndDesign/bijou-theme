@@ -35,6 +35,11 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 1000px), screen and (max-device-width: 1000px)" href="/bijou/wp-content/themes/bijou/1000.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 950px), screen and (max-device-width: 950px)" href="/bijou/wp-content/themes/bijou/950.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 760px), screen and (max-device-width: 760px)" href="/bijou/wp-content/themes/bijou/760.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 640px), screen and (max-device-width: 640px)" href="/bijou/wp-content/themes/bijou/640.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px), screen and (max-device-width: 480px)" href="/bijou/wp-content/themes/bijou/480.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	/* We add some JavaScript to pages with the comment form

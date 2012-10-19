@@ -12,11 +12,11 @@ License URI:
 General comments (optional).
 */
 
-body {background-image:url(images/wood_repeat.jpg);color:white;font-family: 'Century Gothic', Arial, Helvetica, sans-serif; }
+body {background-image:url(images/wood_repeat.jpg);color:white;font-family: 'Century Gothic', Arial, Helvetica, sans-serif; margin: 0; padding: 0;}
 p {font-family:'Century Gothic', Arial, Helvetica, sans-serif; font-size:14px; font-weight:lighter;}
 div#wrapper {width:100%; margin:auto;   }
 .menu { background-color:transparent; margin:auto; }
-div#header h1 {background:url(images/now_showing.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
+div#header h1 {background:url(images/now_showing.png) no-repeat; display:block; height: 241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#headercomingsoon h1 {background:url(images/coming_soon.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#headerabout h1 {background:url(images/about.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#headerlocation h1 {background:url(images/location.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
@@ -49,19 +49,24 @@ color:#91b99f; text-transform:uppercase; font-size:13px;
 h2.accessibility {display:none;}
 /*NAVIGATIONS-top and bottom*/
 
+img,
+object {
+     max-width: 100%;
+}
+
 #topnav {
 	width: 949px; margin: auto;
 }
 .menu ul {margin:auto; width:949px; height:150px; }
 .menu ul li {display:inline; margin:auto;}
 
-.menu ul li a {color:white; text-decoration:none; font-size:25px;margin:50px 60px 70px 0px;float:left;text-transform:uppercase;list-style-type:none; }
+.menu ul li a {color:white; text-decoration:none; font-size:18px;margin:50px 60px 70px 0px;float:left;text-transform:uppercase;list-style-type:none; }
 .menu ul li .current_page_item a{ color: green }
 
 li.current_page_item a, li.page_item a { }
 .menu ul a:hover {color:#91b99f;}
-.bijou-logo {margin:0 50px 0 0px;  background:url(images/logo.png) no-repeat; display:block; height:119px; width: 198px; float:left; text-indent:-9999px; }
-.uilogo {margin:0 0px 0 0px;  background:url(images/uilogo2.png) no-repeat; display:block; height:32px; width: 297px;  text-indent:-9999px; }
+.bijou-logo {margin:0 30px 0 30px;  background:url(images/logo.png) no-repeat; display:block; height:119px; width: 198px; float:left; text-indent:-9999px; }
+.uilogo {margin:10px 0px 0 5px;  background:url(images/uilogo2.png) no-repeat; display:block; height:32px; width: 297px;  text-indent:-9999px; }
 
 /*bottom nav */
 /*div#footer {margin-left:20px;}*/
@@ -116,7 +121,7 @@ table.dbem-calendar-table td.eventless-today {
 background-color: #5e7767;
 float: right;
 padding: 5px;
-
+margin: 10px;
 }
 
 
