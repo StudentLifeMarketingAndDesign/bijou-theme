@@ -1,5 +1,5 @@
 body {box-sizing: border-box;}
-p {font-size: 12px; line-height: 20px;}
+p {font-size: 12px; line-height: 20px; clear: none;}
 div#wrapper {}
 .menu {}
 div#header h1 {height: 100px;}

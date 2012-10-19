@@ -53,13 +53,12 @@ get_header();
 			?>
 </div>			
 	<div class="content_container">
-	<p>
 	<?php	
 	if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 		the_post_thumbnail( array(246, 246));
 	}
 	?>
-	<?php the_content() ?></p>
+	<?php the_content() ?>
 	</div>
 		
 	<?php endwhile; ?>

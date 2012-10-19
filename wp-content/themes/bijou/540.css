@@ -1,6 +1,10 @@
 
-div#filmfeature ul li img {width: 170px; height: 280px; display: block; clear: both;}
+div#filmfeature ul li img {width: 170px; height: 250px; margin-bottom: 15px; float: left;}
 
 .schedule_container {
-margin-right: 120px;
+float: right;
+}
+
+p {
+	clear: both;
 }

@@ -1,2 +1,8 @@
 
 .menu ul li a {font-size:14px; margin:30px 10px 7px 0px;}
+
+p {
+	clear: both;
+}
+
+div#filmfeature ul li img {margin-bottom: 15px;}
