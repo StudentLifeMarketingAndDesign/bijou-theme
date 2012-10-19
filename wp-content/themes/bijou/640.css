@@ -67,7 +67,7 @@ p.title {margin:-10px 0 20px 0;}
 div#leftcolumn {width:95%; min-height:200px; padding: 20px; /* background-color: rgba(43, 26, 17, 0.6); */}
 div#filmfeature ul {width:100%;  min-height:100px; margin-top:-12px;}
 div#filmfeature ul li {width:100%; display: block; margin:0 20px 0 0; }
-div#filmfeature ul li img {margin:0 20px 20px 0;}
+div#filmfeature ul li img {margin:0 10px 0px 0;}
 div#filmfeature ul li h2 a{font-size:24px; margin-bottom:-15px;}
 div#filmfeature ul li h3{font-size:22px;}
 div#filmfeature ul li h4 {} 

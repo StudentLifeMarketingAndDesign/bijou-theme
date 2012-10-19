@@ -45,18 +45,22 @@ get_header();
 		
 <div class="schedule_container">
 			<?php
-			
-			if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-			  the_post_thumbnail( array(246, 246));
-			  }
-			  
-			  	  echo ec3_get_schedule('<tr><td colspan="3">%s</td></tr>', '<tr><td class="ec3_start">%1$s</td>'
+			 
+			 echo ec3_get_schedule('<tr><td colspan="3">%s</td></tr>', '<tr><td class="ec3_start">%1$s</td>'
 			  . '<td class="ec3_to">%3$s</td><td class="ec3_end">%2$s</td></tr>','<table class="ec3_schedule" cellpadding=10>%s</table>');
 			
 			
 			?>
 </div>			
-	<div class="content_container"><p><?php the_content() ?></p></div>
+	<div class="content_container">
+	<p>
+	<?php	
+	if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+		the_post_thumbnail( array(246, 246));
+	}
+	?>
+	<?php the_content() ?></p>
+	</div>
 		
 	<?php endwhile; ?>
 
