@@ -1,0 +1,14 @@
+div#header h1 {height: 60px; margin-top: -20px;}
+div#headercomingsoon h1 {height: 60px; margin-top: -20px;}
+div#headerabout h1 {height: 60px; margin-top: -20px;}
+div#headerlocation h1 {height: 60px; margin-top: -20px;}
+div#headerarchive h1 {height: 60px; margin-top: -20px;}
+div#headerabout_sm h1 {background-size: 45%; margin-bottom: -10px;}
+div#headerlocation_sm h1 {background-size: 45%; margin-bottom: -10px;}
+div#headerarchive_sm h1 {background-size: 45%; margin-bottom: -10px;}
+
+.menu ul li a {font-size:10px; margin:20px 20px 0px 0px; text-align: center;}
+
+.ec3_schedule {
+	font-size: 11px;
+}

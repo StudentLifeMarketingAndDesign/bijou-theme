@@ -2,11 +2,11 @@ body {box-sizing: border-box;}
 p {font-size: 12px; line-height: 20px; clear: none;}
 div#wrapper {}
 .menu {}
-div#header h1 {height: 100px;}
-div#headercomingsoon h1 {height: 100px;}
-div#headerabout h1 {height: 100px;}
-div#headerlocation h1 {height: 100px;}
-div#headerarchive h1 {height: 100px;}
+div#header h1 {height: 105px;}
+div#headercomingsoon h1 {height: 105px;}
+div#headerabout h1 {height: 105px;}
+div#headerlocation h1 {height: 105px;}
+div#headerarchive h1 {height: 105px;}
 div#headerabout_sm h1 {height: 80px;}
 div#headerlocation_sm h1 {height: 80px;}
 div#headerarchive_sm h1 {height: 80px;}
@@ -32,13 +32,13 @@ font-size:12px;
 .menu ul {width:100%; height:100px; }
 .menu ul li {}
 
-.menu ul li a {font-size:12px; margin:30px 10px 0px 0px;}
+.menu ul li a {font-size:13px; margin:30px 11px 0px 0px;}
 .menu ul li .current_page_item a{}
 
 li.current_page_item a, li.page_item a { }
 .menu ul a:hover {}
 .bijou-logo {margin:0 30px 0 10px; height:119px; width: 25%; background-size: 100%;}
-.uilogo {height:16px; width: 148px; background-size: 100%;}
+.uilogo {margin-left: 10px; margin-bottom: 10px; height:16px; width: 148px; background-size: 100%;}
 
 /*bottom nav */
 /*div#footer {margin-left:20px;}*/

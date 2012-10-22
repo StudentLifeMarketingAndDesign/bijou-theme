@@ -14,7 +14,7 @@ General comments (optional).
 
 body {background-image:url(images/wood_repeat.jpg);color:white;font-family: 'Century Gothic', Arial, Helvetica, sans-serif; margin: 0; padding: 0;}
 p {font-family:'Century Gothic', Arial, Helvetica, sans-serif; font-size:14px; font-weight:lighter;}
-div#wrapper {width:100%; margin:auto;   }
+div#wrapper {width:100%; margin:auto; overflow: hidden;  }
 .menu { background-color:transparent; margin:auto; }
 div#header h1 {background:url(images/now_showing.png) no-repeat; display:block; height: 241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
 div#headercomingsoon h1 {background:url(images/coming_soon.png) no-repeat; display:block;height:241px; background-position:50% 50%;  text-indent:-9999px; margin:0px auto 0px auto; margin-bottom: 15px; }
@@ -66,7 +66,7 @@ object {
 li.current_page_item a, li.page_item a { }
 .menu ul a:hover {color:#91b99f;}
 .bijou-logo {margin:0 30px 0 30px;  background:url(images/logo.png) no-repeat; display:block; height:119px; width: 198px; float:left; text-indent:-9999px; }
-.uilogo {margin:10px 0px 0 5px;  background:url(images/uilogo2.png) no-repeat; display:block; height:32px; width: 297px;  text-indent:-9999px; }
+.uilogo {margin:10px 0px 0 30px;  background:url(images/uilogo2.png) no-repeat; display:block; height:32px; width: 297px;  text-indent:-9999px; }
 
 /*bottom nav */
 /*div#footer {margin-left:20px;}*/
@@ -207,7 +207,7 @@ div#connect
 
 /*IE styles  */
 html>body .menu ul {*width:698px; *height:165px; }
-html>body .menu ul li a{ *margin:50px 60px 70px 0px;  }
+html>body .menu ul li a{ *margin:50px 60px 70px 0px; }
 html>body ul#connect {*width:300px; *margin-left:15px; }
 html>body ul#connect li {*float:left; *margin:0 2px 0 2px;}
 html>body ul.bijou {*margin-left:5px;}

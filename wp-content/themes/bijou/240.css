@@ -1,0 +1,11 @@
+div#headerabout_sm h1 {background-size: 33%; margin-bottom: -30px;}
+div#headerlocation_sm h1 {background-size: 33%; margin-bottom: -30px;}
+div#headerarchive_sm h1 {background-size: 33%; margin-bottom: -30px;}
+
+.menu ul li a {font-size:9px; margin:20px 15px 0px 0px; text-align: center;}
+
+div#filmfeature ul li img {width: 84px; height: 123px;}
+
+.ec3_schedule {
+	font-size: 9px;
+}

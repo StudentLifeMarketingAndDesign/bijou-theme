@@ -42,6 +42,8 @@
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 640px), screen and (max-device-width: 640px)" href="/bijou/wp-content/themes/bijou/640.css" />
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 540px), screen and (max-device-width: 540px)" href="/bijou/wp-content/themes/bijou/540.css" />
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px), screen and (max-device-width: 480px)" href="/bijou/wp-content/themes/bijou/480.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 320px), screen and (max-device-width: 320px)" href="/bijou/wp-content/themes/bijou/320.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 240px), screen and (max-device-width: 240px)" href="/bijou/wp-content/themes/bijou/240.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	/* We add some JavaScript to pages with the comment form
