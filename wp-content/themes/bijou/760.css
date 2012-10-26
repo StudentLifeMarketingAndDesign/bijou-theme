@@ -6,3 +6,8 @@ p {
 }
 
 div#filmfeature ul li img {margin-bottom: 15px;}
+
+.schedule_container {
+padding: 3px;
+margin: 7px;
+}
