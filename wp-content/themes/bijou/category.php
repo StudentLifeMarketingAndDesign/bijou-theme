@@ -9,9 +9,9 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
-				<div id="leftcolumn">
+<div id="content" class="home">   
+
+<div id="leftcolumn">
 				<h1 class="page-title"><?php
 					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
@@ -28,9 +28,11 @@ get_header(); ?>
 				?>
 
 			
-		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
-</div>
-</div><!-- #content -->
+  	 </div><!-- closes left column -->
+         
+             
+	<?php get_sidebar(); ?>             
+	<?php get_footer(); ?>
+	
+</div> <!-- closes content div-->   
