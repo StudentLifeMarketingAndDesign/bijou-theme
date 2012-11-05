@@ -9,8 +9,12 @@
 
 get_header(); ?>
 
+<<<<<<< HEAD
 		<div id="container">
 			<div id="content" role="main">
+=======
+		<div id="content" role="main">
+>>>>>>> 7c0adca4b1185fad308b70d58bb0c53a4bffad89
 				<div id="leftcolumn">
 				<h1 class="page-title"><?php
 					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
@@ -95,6 +99,7 @@ print paginate_links( $pagination ) ?>
 			
 			
 			
+<<<<<<< HEAD
 
 			
 		</div><!-- #container -->
@@ -103,3 +108,13 @@ print paginate_links( $pagination ) ?>
 <?php get_footer(); ?>
 </div>
 </div><!-- #content -->
+=======
+</div>
+  	 </div><!-- closes left column -->
+         
+             
+	<?php get_sidebar(); ?>             
+	<?php get_footer(); ?>
+	
+</div> <!-- closes content div-->   
+>>>>>>> 7c0adca4b1185fad308b70d58bb0c53a4bffad89
