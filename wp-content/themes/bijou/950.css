@@ -117,13 +117,10 @@ div#directors ul li p {margin:0 0 0px 10px; font-size:13px; }
 
 
 div#rightcolumn h3.films {width:180px;}
-a#tweet {width:81px; height:71px; margin: 0px 14px 0px 0px;}
-a#fb {width:81px; height:71px; margin:0px 4px 10px 0;}
-a#email {width:81px; height:71px; margin: 0px 0 10px 10px; }
-ul#connect {width:280px;  min-height:81px; }
-ul#connect li {}
+ul#connect {margin-left: 0px;}
+ul#connect li a {width: 65px; height: 65px; background-size: 100%;}
 div#rightcolumn h3.page_item {width:317px;}
-h3.connect {height:101px; width:317px;}
+h3.connect {height:80px; background-size: 75%;}
 ul.films, ul.page_item, ul.current_page_item {width:220px; min-height:100px;}
 
 ul.films li {margin-left:-30px;}
@@ -151,7 +148,7 @@ div#connect
 /*IE styles  */
 html>body .menu ul {*width:698px; *height:165px; }
 html>body .menu ul li a{ *margin:50px 60px 70px 0px;  }
-html>body ul#connect {*width:300px; *margin-left:15px; }
+html>body ul#connect {*width:300px; *margin-left:15px;}
 html>body ul#connect li {*margin:0 2px 0 2px;}
 html>body ul.bijou {*margin-left:5px;}
 html>body div#rightcolumn ul.xoxo{}

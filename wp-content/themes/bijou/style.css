@@ -174,10 +174,13 @@ div#directors ul li p {margin:0 0 0px 10px; font-size:13px; }
 
 
 div#rightcolumn h3.films {color:#38755c; text-transform:uppercase; width:180px;   text-align:center;margin: auto;  font-family:'Century Gothic', Arial,Helvetica,sans-serif;}
-a#tweet {background:url(images/twitter.png) no-repeat; width:81px; height:71px; text-indent:-9999px; display:block; float:left; margin: 0px 14px 0px 0px;}
-a#fb {background:url(images/facebook.png) no-repeat; width:81px; height:71px; text-indent:-9999px; display:block; float:left; margin:0px 4px 10px 0;}
-a#email {background:url(images/email.png) no-repeat; width:81px; height:71px; text-indent:-9999px; display:block; float:left; margin: 0px 0 10px 10px; }
-ul#connect {width:280px;  min-height:81px; }
+a#tweet {background:url(images/twitter.png) no-repeat; width:70px; height:70px; text-indent:-9999px; display:block; float:left; margin: 0px 14px 0px 0px;}
+a#fb {background:url(images/facebook.png) no-repeat; width:70px; height:70px; text-indent:-9999px; display:block; float:left; margin:0px 4px 10px 0;}
+a#email {background:url(images/email.png) no-repeat; width:70px; height:70px; text-indent:-9999px; display:block; float:left; margin: 0px 0 10px 10px; }
+a#tweet:hover {background-position-y: 100%;}
+a#fb:hover {background-position-y: 100%;}
+a#email:hover {background-position-y: 100%;}
+ul#connect {width:280px;  min-height:81px; margin-left: 40px;}
 ul#connect li {list-style-type:none; /*margin-left:-20px;*/ }
 div#rightcolumn h3.page_item {width:317px;}
 h3.connect {background:url(images/connect.png) no-repeat; height:101px; width:317px; text-indent:-9999px; margin:auto; }
