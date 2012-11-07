@@ -589,8 +589,8 @@ function new_excerpt_more($output) {
 }
 add_filter('get_the_excerpt', 'new_excerpt_more');
 
-add_filter('posts_join', 'new_join' );
-function new_join($pjoin){
+//add_filter('posts_join', 'new_join' );
+/*function new_join($pjoin){
 	if(is_category()){
 		global $wpdb;
 		$pjoin .= "LEFT JOIN (
@@ -610,4 +610,4 @@ function new_order( $orderby ){
 	}
 
  	return $orderby;
-}
+}*/

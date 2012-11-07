@@ -9,12 +9,9 @@
 
 get_header(); ?>
 
-<<<<<<< HEAD
 		<div id="container">
 			<div id="content" role="main">
-=======
-		<div id="content" role="main">
->>>>>>> 7c0adca4b1185fad308b70d58bb0c53a4bffad89
+
 				<div id="leftcolumn">
 				<h1 class="page-title"><?php
 					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
@@ -26,19 +23,24 @@ get_header(); ?>
 				$dataQuery = new WP_Query( array(
 					'post_type' => 'post',
 					'category_name' => 'coming-soon',
-					'posts_per_page' => 10, // get 5 posts
-					 'paged' => get_query_var( 'paged' ), 
-					/*'orderby_field' => 'film_start_date', // name of field*/
-					'orderby_type' => 'string', // 'int' or 'string' (defaults to 'string')
+					'posts_per_page' => 20, // get 10 posts
+					'paged' => get_query_var( 'page' ), 
+					'orderby' => 'meta_value_num',
+					'meta_key' => 'film_start_date',
 					'order'	=>	'ASC'
 				));
+				
+				//print_r($dataQuery);
 			?>
-		 
+			
+		<?php //$dataQuery = new WP_Query('orderby=title&order=DESC') ; ?>
+			
+
 	
 	<?php if ($dataQuery->have_posts() ) : while ( $dataQuery->have_posts() ) : $dataQuery->the_post(); ?>
 
 		<li>
-			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a> - film_start_date yo: <?php the_field('film_start_date'); ?></h2>
 		
 <div class="schedule_container">
 			<?php
@@ -95,20 +97,7 @@ print paginate_links( $pagination ) ?>
 
 <?php endif; ?>
 </ul>		
-   	
-			
-			
-			
-<<<<<<< HEAD
 
-			
-		</div><!-- #container -->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
-</div>
-</div><!-- #content -->
-=======
 </div>
   	 </div><!-- closes left column -->
          
@@ -117,4 +106,3 @@ print paginate_links( $pagination ) ?>
 	<?php get_footer(); ?>
 	
 </div> <!-- closes content div-->   
->>>>>>> 7c0adca4b1185fad308b70d58bb0c53a4bffad89
