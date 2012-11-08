@@ -13,7 +13,6 @@
  */
 
 get_header(); ?>
-		<div id="container">
 			<div id="content" role="main">
 			<div class="clear"></div>
 			<div id="leftcolumn">
@@ -55,7 +54,6 @@ get_header(); ?>
 ?>
 		
 			</div><!-- #content -->
-		</div><!-- #container -->
 		
 
 <?php get_sidebar(); ?>

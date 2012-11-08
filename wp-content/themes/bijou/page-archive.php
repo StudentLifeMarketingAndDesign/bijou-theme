@@ -1,6 +1,11 @@
 <?php
 /**
- * The template for displaying Category Archive pages.
+ * The template for displaying Archive pages.
+ *
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
  * @subpackage Twenty_Ten
@@ -8,23 +13,43 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
 			<div id="content" role="main">
+			<div id="leftcolumn">
+<?php
+	/* Queue the first post, that way we know
+	 * what date we're dealing with (if that is the case).
+	 *
+	 * We reset this later so we can run the loop
+	 * properly with a call to rewind_posts().
+	 */
+	if ( have_posts() )
+		the_post();
+?>
 
-				<div id="leftcolumn">
+			<h1 class="page-title">
+<?php if ( is_day() ) : ?>
+				<?php printf( __( 'Daily Archives: <span>%s</span>', 'bijou' ), get_the_date() ); ?>
+<?php elseif ( is_month() ) : ?>
+				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'bijou' ), get_the_date('F Y') ); ?>
+<?php elseif ( is_year() ) : ?>
+				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'bijou' ), get_the_date('Y') ); ?>
+<?php else : ?>
+				<?php _e( 'Show Archives', 'bijou' ); ?>
+<?php endif; ?>
+			</h1>
+
 <div id="filmfeature">
 
 	<ul>
 			<?php
 				$dataQuery = new WP_Query( array(
 					'post_type' => 'post',
-					'category_name' => 'coming-soon',
+					//'category_name' => 'coming-soon',
 					'posts_per_page' => 20, // get 10 posts
 					'paged' => get_query_var( 'page' ), 
 					'orderby' => 'meta_value_num',
 					'meta_key' => 'film_start_date',
-					'order'	=>	'ASC'
+					'order'	=>	'DESC'
 				));
 				
 				//print_r($dataQuery);
@@ -73,7 +98,7 @@ $pagination = array(
 	'show_all' => true,
 	'type' => 'plain',
 	/*'prev_text' => '', */
-	'next_text' => '&nbsp; &nbsp; Future Shows &raquo;'
+	'next_text' => '&nbsp; &nbsp; Past Shows &raquo;'
 	);
 	
 if( $wp_rewrite->using_permalinks() )
@@ -94,10 +119,8 @@ print paginate_links( $pagination ) ?>
 </ul>		
 
 </div>
-  	 </div><!-- closes left column -->
-         
-             
-	<?php get_sidebar(); ?>             
-	<?php get_footer(); ?>
-	
-</div> <!-- closes content div-->   
+			</div><!-- #content -->
+		
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

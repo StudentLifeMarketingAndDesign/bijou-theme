@@ -62,7 +62,7 @@
 
 <?php
 			if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-			echo "<h2>IMAGE SHOULD BE HERE</h2>";
+			//echo "<h2>IMAGE SHOULD BE HERE</h2>";
 			  the_post_thumbnail( array(246, 246));
 			  }
 

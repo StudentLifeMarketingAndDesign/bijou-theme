@@ -26,13 +26,22 @@ get_header();
 
 	<ul>
 			<?php
-				$dataQuery = new WP_Query( array(
+				/*$dataQuery = new WP_Query( array(
 					'post_type' => 'post',
 					'category_name' => 'now-showing',
 					'posts_per_page' => 5, // get 5 posts
-					 'paged' => get_query_var( 'paged' ), 
-					/*'orderby_field' => 'film_start_date', // name of field*/
+					 'paged' => get_query_var( 'page' ), 
 					'orderby_type' => 'string', // 'int' or 'string' (defaults to 'string')
+					'order'	=>	'ASC'
+				));*/
+				
+					$dataQuery = new WP_Query( array(
+					'post_type' => 'post',
+					'category_name' => 'now-showing',
+					'posts_per_page' => 20, // get 10 posts
+					'paged' => get_query_var( 'page' ), 
+					'orderby' => 'meta_value_num',
+					'meta_key' => 'film_start_date',
 					'order'	=>	'ASC'
 				));
 			?>
