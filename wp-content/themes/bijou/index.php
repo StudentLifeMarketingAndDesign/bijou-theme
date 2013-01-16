@@ -37,12 +37,13 @@ get_header();
 				
 					$dataQuery = new WP_Query( array(
 					'post_type' => 'post',
-					'category_name' => 'now-showing',
+					'category_slug' => 'now-showing',
 					'posts_per_page' => 20, // get 10 posts
 					'paged' => get_query_var( 'page' ), 
-					'orderby' => 'meta_value_num',
-					'meta_key' => 'film_start_date',
-					'order'	=>	'ASC'
+					'orderby' => 'date',
+					/*'orderby' => 'meta_value_num',*/
+					/*'meta_key' => 'film_start_date',*/
+					/*'order'	=>	'ASC'*/
 				));
 			?>
 		 
@@ -76,7 +77,7 @@ get_header();
 	<div style="clear: left;"></div>
 	</li>
 	<div style="clear: left;"></div>
-<?
+<?php
 global $wp_rewrite;
 $dataQuery->query_vars['paged'] > 1 ? $current = $dataQuery->query_vars['paged'] : $current = 1;
  

@@ -74,7 +74,7 @@
 
 	</div>
     	
-<?
+<?php
 /*
 	if ( is_page('about') ) {
 		echo '<div id="headerabout"><h1>Bijou Cinema About</h1></div>';
