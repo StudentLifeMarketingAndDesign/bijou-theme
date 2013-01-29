@@ -28,7 +28,7 @@ get_header();
 			$agenda = get_posts(
 			
 					array(
-					'cat' => 7,
+					//'categor' => 'bijou-film',
 					//'posts_per_page' => 30, // get 20 posts
 			
 					)		
@@ -39,20 +39,16 @@ get_header();
 // an empty array
 $date_order = '';
 if( $agenda ) : ?> <?php  foreach( $agenda as $post ) : setup_postdata( $post ); ?> 
-<?php //print_r($post); ?>
 
 <?php 	$custom_date = get_post_custom_values('EventStartDate (YYYY/MM/DD)');
 	if (isset($custom_date[0])) {
 	
-		$evento = strtotime($custom_date[0]).$post->ID;
+		$evento = strtotime($custom_date[0]);
 		
 	} else {
-  		 $evento = strtotime($post->post_date_gmt);
- 
-		}
-//	print_r($evento);
+   $evento = strtotime($post->post_date_gmt);
+			}
 	$date_order[$evento] = $post->ID;
-//	print_r($date_order);
 
 // now the array contain key as date and post ID as value
 	 ?>

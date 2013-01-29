@@ -37,7 +37,7 @@ if( $agenda ) : ?> <?php  foreach( $agenda as $post ) : setup_postdata( $post );
 <?php 	$custom_date = get_post_custom_values('EventStartDate (YYYY/MM/DD)');
 	if (isset($custom_date[0])) {
 	
-		$evento = strtotime($custom_date[0]);
+		$evento = strtotime($custom_date[0].$post->ID);
 		
 	} else {
    $evento = strtotime($post->post_date_gmt);
