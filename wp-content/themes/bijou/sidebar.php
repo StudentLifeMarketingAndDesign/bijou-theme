@@ -72,7 +72,7 @@ ec3_get_events(
         <ul id="connect"> 
             
 
-            <li><a href="http://twitter.com/bijoutheater" id="tweet">Twitter</a></li> 
+            <li><a href="http://twitter.com/bijoucinema" id="tweet">Twitter</a></li> 
             <li><a href="http://www.facebook.com/pages/The-Bijou-Cinema/178595398854287" id="fb">Facebook</a></li> 
            <li> <a href="mailto:bijou@uiowa.edu" id="email">Email</a></li> 
            </ul> <!-- closes connect div --> 
